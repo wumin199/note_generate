@@ -1,2 +1,8 @@
-# note
-shell scripts used to attract notes
+shell scripts used to generate notes
+--
+
+## keywords
+
+@study
+@status
+@summary
