@@ -137,11 +137,15 @@ generate_doc() {
   if [ -n "$match_status" ];
   then
     note_status=${match_status:1} # 从index=1开始截取字符串，去掉@
+  else
+    note_status="Status: None"
   fi
 
   if [ -n "$match_summary" ];
   then
     note_summary=${match_summary:1} # 截取字符串，去掉@
+  else
+    note_summary="Summary: None"
   fi
 
   # $ 表示正则表达式匹配到行尾
